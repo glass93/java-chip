@@ -1,22 +1,27 @@
-package pjtTest;
+package testPjt;
 
 public class MainClass {
-
-	public static void main(String[] args) {
 	
+	public static void main(String[] args) {
+		
+		char c = 'a';
+		System.out.println("c = " + c);
+		
 		int i = 10;
-		int j;
-		j = 100;
-		
-		i=200;
-		
-		System.out.println("i + j = " + (i+j));
-		
-		i = 50;
 		System.out.println("i = " + i);
+	
+		double d = 10.123;
+		System.out.println("d = " + d);
 		
-		i = 9700;
-		System.out.println("i = " + i);
+		boolean b = false;
+		System.out.println("b = " + b);
+		
+		String s = "Hello Java World!!";
+		System.out.println("s = " + s);
+		
+		s = "good";
+		System.out.println("s = " + s);
 		
 	}
+
 }
